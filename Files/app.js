@@ -26,3 +26,12 @@ const slideImage = () => {
         }
     )
 }
+
+
+
+
+
+
+
+
+

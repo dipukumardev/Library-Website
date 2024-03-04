@@ -1,46 +1,46 @@
-/*  nav bar respnsive css  */
+ /* nav bar respnsive css  */
 
-@media (max-width:940px) {
-    nav ul {
-        position: fixed;
-        top: 80px;
-        left: -100%;
-        background: #111;
-        height: 50vh;
-        width: 100%;
-        display: block;
-        text-align: center;
-        transition: all 0.3s ease-in-out;
-    }
+ @media (max-width:940px) {
+     nav ul {
+         position: fixed;
+         top: 80px;
+         left: -100%;
+         background: #111;
+         height: 50vh;
+         width: 100%;
+         display: block;
+         text-align: center;
+         transition: all 0.3s ease-in-out;
+     }
 
-    nav ul li {
-        margin-top: 40px;
-    }
+     nav ul li {
+         margin-top: 40px;
+     }
 
-    nav ul li a {
-        font-size: 20px;
-        display: block;
-    }
+     nav ul li a {
+         font-size: 20px;
+         display: block;
+     }
 
-    nav ul li a:hover,
-    nav ul li a.active {
-        color: rgb(189, 234, 28);
-        background: none;
-    }
+     nav ul li a:hover,
+     nav ul li a.active {
+         color: rgb(189, 234, 28);
+         background: none;
+     }
 
-    /* menu icon css  */
-    .menu-btn i {
-        display: block;
-        margin-right: 25px;
-    }
+     /* menu icon css  */
+     .menu-btn i {
+         display: block;
+         margin-right: 25px;
+     }
 
-    #click{
-        display: none;
-    }
+     #click {
+         display: none;
+     }
 
-    #click:checked~ .menu-btn i:before{
-        content: "<i class=" ri-xrp-line"></i>";
-    }
-}
+     #click:checked~.menu-btn i:before {
+         content: "<i class=" ri-xrp-line"></i>";
+     }
+ }
 
-/* HOME SECTION START  */
+ /* HOME SECTION START  */

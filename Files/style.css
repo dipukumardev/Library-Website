@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 :root {
-    --nav_bar_color:#FFFD8C;
+    --nav_bar_color:#C7D4C5;
 }
 
 header {
@@ -22,7 +22,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid black;
     background-color: var(--nav_bar_color);
 }
 
@@ -43,7 +42,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
@@ -80,10 +79,9 @@ nav ul li a.active {
 .home {
     width: 100%;
     height: calc(100vh - 15vh);
-    border: 2px solid black;
     position: relative;
     top: 15vh;
-    background-color: red;
+    background-color:#ACC4B2;
 }
 
 .home img {
@@ -94,7 +92,7 @@ nav ul li a.active {
 /* IMAGE SLIDER  */
 
 .image-slider {
-    width: 85%;
+    width: 70%;
     height: 550px;
     margin: auto;
     position: relative;
