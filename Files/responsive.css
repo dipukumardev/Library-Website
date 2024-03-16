@@ -24,7 +24,7 @@
 
      nav ul li a:hover,
      nav ul li a.active {
-         color: rgb(189, 234, 28);
+         color: rgb(255, 255, 255);
          background: none;
      }
 
@@ -41,6 +41,9 @@
      #click:checked~.menu-btn i:before {
          content: "<i class=" ri-xrp-line"></i>";
      }
+ }
+ .sign_login{
+    margin-right: 45px;
  }
 
  /* HOME SECTION START  */
